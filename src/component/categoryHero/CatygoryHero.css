@@ -1,0 +1,29 @@
+.CategoryHero {
+  width: 100%;
+  background-color: var(--black); /* fon rangi qora */
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CategoryHero__content h1 {
+  color: var(--white);
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Responsive uchun */
+@media (max-width: 768px) {
+  .CategoryHero {
+    height: 200px;
+  }
+
+  .CategoryHero__content h1 {
+    font-size: 28px;
+    letter-spacing: 1.5px;
+  }
+}

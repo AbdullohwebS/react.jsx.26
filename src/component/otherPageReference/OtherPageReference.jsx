@@ -1,7 +1,6 @@
+import React from "react";
 import "./OtherPageReference.css";
 
 export default function OtherPageReference() {
-  return (
-    <section>OtherPageReference</section>
-  )
+  return <div>OtherPageReference</div>;
 }
